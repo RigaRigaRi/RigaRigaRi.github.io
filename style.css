@@ -24,7 +24,7 @@ li {
 /* таблица пакетов */
 table {
     width: 100%;
-    max-width: 430px;
+    max-width: 380px;
     margin: 0 auto;
     border-collapse: collapse;
     font-size: 0.7em;
