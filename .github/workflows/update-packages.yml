@@ -50,11 +50,11 @@ jobs:
           echo '</div>' >> index.html
 
           # таблица пакетов: имя слева, размер справа
-          echo '<table style="width:100%; max-width:600px; margin:auto; border-collapse:collapse;">' >> index.html
+          echo '<table>' >> index.html
           echo '<tbody>' >> index.html
 
           # заголовок колонок (опционально, можно убрать)
-          echo '<tr><th style="text-align:left;">Package</th><th style="text-align:right;">Size</th></tr>' >> index.html
+          echo '<tr><th style="text-align:left;">Name</th><th style="text-align:right;">Size</th></tr>' >> index.html
 
           for f in *.deb; do
             size=$(du -h "$f" | cut -f1)
