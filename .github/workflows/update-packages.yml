@@ -2,8 +2,7 @@ name: Update Cydia Packages
 
 on:
   push:
-    paths:
-      - "repo/debs/**"
+    branches: [ "main" ]
 
 jobs:
   build:
