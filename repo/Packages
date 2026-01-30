@@ -1217,6 +1217,22 @@ Architecture: iphoneos-arm
 Maintainer: ARX8x
 Installed-Size: 69
 Depends: mobilesubstrate
+Filename: debs/net.arx8x.ultrasoundpatch_0.0.1-1+debug_iphoneos-arm — копия.deb
+Size: 2974
+MD5sum: d38b83f4f840ce2a478a5861a0b5d54d
+SHA1: 7a154acb3916470610ce822702d571366af592f0
+SHA256: 2d6376517a453123a05d11c83b32977ecbb8b9cd682c395cd23f5d50a6c5d0fd
+Section: Tweaks
+Description: Make Ultrasound work on iOS 10 (and below maybe?)
+Author: ARX8x
+Name: Ultrasound patch
+
+Package: net.arx8x.ultrasoundpatch
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Installed-Size: 69
+Depends: mobilesubstrate
 Filename: debs/net.arx8x.ultrasoundpatch_0.0.1-1+debug_iphoneos-arm.deb
 Size: 2974
 MD5sum: d38b83f4f840ce2a478a5861a0b5d54d
