@@ -1,0 +1,819 @@
+Package: ai.akemi.appinst
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: debs/ai.akemi.appinst_2.1.1_iphoneos-arm64~akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 59538
+MD5sum: e6d2a75aca6914175323aa421dd8ba1a
+SHA1: 1af6238bedc0cb46528c0f1b601229e2314f5eba
+SHA256: 71d53a9d7f7b5c90f2fa43fff30dbce842e48f219011c8febb4439ffc5f461e2
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
+Package: ai.akemi.appinst
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: debs/ai.akemi.appinst_2.1.1_iphoneos-arm~akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 59716
+MD5sum: 891aef5b77f11e286edd1440dd905943
+SHA1: 86f090c7e88452fb89baf14beacbb26d2392003e
+SHA256: 5997771183c39eb8b5e13fc2bb511b1dfcb7eb39d3f10c9092ab088ec34aae09
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 636
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 78056
+MD5sum: 94325cbe75c1b30c15b7f4f24defd37b
+SHA1: 698bcbf521d81925cf4528d4661fb4af973e5dab
+SHA256: ffb6b3dfd84c8e6285c961bfc94f9645b2b194791d8dc43bcfc56f6b66b15e01
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.appsyncunified
+Version: 116.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 668
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified, ellekit (< 1.1)
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/ai.akemi.appsyncunified_116.0_iphoneos-arm64.akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 49472
+MD5sum: d6a31911e878b83e47c6525fa29ecef1
+SHA1: d00d2667c0d5421dddfc70a2734f1d63b972a535
+SHA256: 2bdaac72a6d1b006309b7dd28f51b1e3d351d3d8758fc9f08ca670f1d71eb382
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: applebetas.ios.tweak.willow
+Version: 1.2.15
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Depends: mobilesubstrate, firmware (>= 11.0) | net.arx8x.ultrasoundpatch, preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: debs/applebetas.ios.tweak.willow.deb
+Size: 331156
+MD5sum: 201a5ed83f91eb8315c29df9206c2cfe
+SHA1: c2a8d9d97434d5839d06979a15b896866d7291d7
+SHA256: b5d3f765da5ab06bed1c4792c922c40bfa2817616eeab505d4257abf0e3d6ce7
+Section: Tweaks
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Author: Ayden Panhuyzen
+Name: Ultrasound
+
+Package: com.4nni3.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: debs/com.4nni3.coolcc.deb
+Size: 40440
+MD5sum: 6b2db277637ccb354bb2a0e70704df74
+SHA1: 60c8de3b5b8d3674a27788011fa329573bd0c8e3
+SHA256: d18d723c5f8a0ce3e1461bf22def7e80e7876ffaaafd582228d20b592ba13abe
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: CoolCC
+
+Package: com.4nni3.coolcc
+Version: 1:4.0
+Architecture: iphoneos-arm64
+Maintainer: 4nni3 <4nni3.14@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate,preferenceloader,com.creaturesurvive.libcscolorpicker
+Filename: debs/com.4nni3.coolcc_1_4.0_iphoneos-arm64.deb
+Size: 43120
+MD5sum: deb4f9082296c889abdfae6190570e96
+SHA1: 4c618650395925ac2fc134d67c22fd50db9a336a
+SHA256: 8e892b3ed893cd307bd91a83370f7139f3d9d2ea72db764d6697b7f6ee1b4c62
+Section: Tweaks
+Description: Makes ControlCenter cool.
+Author: 4nni3 <4nni3.14@gmail.com>
+Name: CoolCC
+
+Package: com.alexpng.cacheclearerx
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: alex_png <alex.png.cc@gmail.com>
+Installed-Size: 1216
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.alexpng.cacheclearerx_1.1_iphoneos-arm.deb
+Size: 1002192
+MD5sum: cd4d56e579c8ae0a4690ab926ab767c2
+SHA1: e49ff880d9aa9ef5bab4253e67341839ae2d3955
+SHA256: 4170ec7662b6fe4d4a6c3e6cccd20cff85d109f186956706f847ac1cf11dab6e
+Section: Tweaks
+Description: Clear applications cache from the storage settings or from the 3D Touch/Force Touch Shortcut.
+Author: alex_png <alex.png.cc@gmail.com>
+Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
+Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
+Name: CacheClearerX
+Sileodepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
+
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm.deb
+Size: 149628
+MD5sum: a595a5e7e5e62502b741249c039d6328
+SHA1: 444a9abd9ee260bed98e432b356b9a3b34c8b2b7
+SHA256: a94cf0ad8d13f4d03e390ea244906834b0e93acc4be5f305628ca50d3e9022a2
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 960
+Pre-Depends: firmware (>= 7.0)
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.6_iphoneos-arm64.deb
+Size: 206352
+MD5sum: bc3b47252a5f1ac8c0cc1e4e28cc4891
+SHA1: de1df8e04e647361adaf8ded1d2061ee8f91dc17
+SHA256: 8bda84f9bee823a35e50baf62d30216a1b954ff2eb1862d933988808592a30f8
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
+
+Package: com.ioscreatix.sugarcane
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix, kasiimh1, baptistecdr
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.ioscreatix.sugarcane_1.2.2_iphoneos-arm.deb
+Size: 6170
+MD5sum: 9c63c0031b416bfb1bca3579f19173b7
+SHA1: b2218ecc62ed6066af44441388f1089854c553eb
+SHA256: 409bea76ed4113923fe735fd9797fc60deaa9ac5474947bd23b0cbb4b1099cec
+Section: Tweaks
+Description: Get percentages for the sliders in the Control Center on iOS 11, 12 & 13
+Author: iOS Creatix, kasiimh1
+Name: SugarCane
+
+Package: com.lukezgd.cbfixforsocket
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: com.coolbooter.coolbooter (<< 1.6), com.staturnz.containerresign
+Filename: debs/com.lukezgd.cbfixforsocket.deb
+Size: 908
+MD5sum: 867eeb4a72b304558036596bee6c6af0
+SHA1: ecf129c701a75b934ea262317a6879a23c38fae0
+SHA256: 0d78875cafdcadeaba47997e3dbbf104a1b04dc5de5c6dbc16db1d66c2792d4b
+Section: System
+Description: Fix CoolBooter error for socket jailbreak. Downgrade Coolbooter to 1.5 or 1.4.1 first before installing this package. You may remove this package after fix is applied. You may also re-install this package anytime to fix CoolBooter on upgrade/downgrade.
+Author: LukeZGD
+Name: CoolBooter Fix for Socket
+
+Package: com.lukezgd.dropbear
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: openssh
+Conflicts: com.lcampbell0x.dropbear
+Filename: debs/com.lukezgd.dropbear.deb
+Size: 1272234
+MD5sum: e26a75d00b913e69e5fbcfc3aff06215
+SHA1: d5189cb1ad3ccc9bf53861b0c0bba88ea5fb5bbe
+SHA256: 2ba04d2d0ea13d0b0ca6f75066a27ab04087588d1316da8d2c3c441ed393aa03
+Section: System
+Description: Dropbear SSH for 32 and 64 bit devices. Use with an SSH tunnel to SSH via USB (Wi-Fi SSH is not enabled by default.)
+Name: Dropbear
+
+Package: com.lukezgd.everuntether
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
+Filename: debs/everuntether.deb
+Size: 71354
+MD5sum: 913393973a56b9097e1b6bb9494dc9a0
+SHA1: d42768254569bb6d4d42019050b80b8a78de8b15
+SHA256: 9654551636c8643c66c597632b966e3e9732419db111d2c4191e0fda921d4981
+Section: System
+Description: Untether package for EverPwnage jailbreak: jsc untether + oob_entry + daibutsu untether. Compatible with all 32-bit devices on iOS 8.0-9.3.4.
+Author: LukeZGD
+Name: EverUntether Package
+
+Package: com.lukezgd.everuntether-bin
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 9.3.4), uikittools (>= 1.1.10)
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.daibutsumigrator, io.pangu.fuxiqin9, net.tihmstar.untetherhomedepot
+Filename: debs/everuntether-bin.deb
+Size: 18802
+MD5sum: aeaf2b7411c8344f403f41c9c4bf8a88
+SHA1: af42a96e0f3a2f52965e017d6dd7ef724cd370e9
+SHA256: 0806375566b377de120885cf091c411821eb943952c4e701e3faa39651b1e35e
+Section: System
+Description: Untether binary for EverPwnage jailbreak.
+Author: LukeZGD
+Name: EverUntether Binary
+
+Package: com.lukezgd.everuntether-migrator
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 8.0), firmware (<= 8.4.1), uikittools (>= 1.1.10), com.lukezgd.everuntether-bin
+Conflicts: cy+cpu.arm64, io.pangu.xuanyuansword8, taiguntether83x, net.tihmstar.daemonloader, com.lukezgd.everuntether
+Filename: debs/com.lukezgd.everuntether-migrator.deb
+Size: 19270
+MD5sum: 200b5e0130bed2816a5b3384761d2867
+SHA1: 6c2b6fdcc11c585111772305d719250d8f242bab
+SHA256: f8b8950c6c62ec81a4b35da195b56360950d8bd82f032d1aaa812ac56a38f44b
+Section: System
+Description: Migrate from EtasonJB/HomeDepot/openpwnage to EverUntether. Remove this package after the migration process.
+Author: LukeZGD
+Name: EverUntether Migrator
+
+Package: com.lukezgd.iconsfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: com.ericasadun.utilities
+Filename: debs/com.lukezgd.iconsfix-1.0.0_iphoneos-arm.deb
+Size: 782
+MD5sum: 57f4702f248d4df2f920a26848d4dd18
+SHA1: 2705b23064b8a465b9966b7b730ce557e98d0d6c
+SHA256: db8fe31762756f291d922d6939a898ee37f78b4b94e5a853672cd98be3f14fe7
+Section: System
+Description: Fix missing jailbreak app icons. Reboot after installing to apply changes, then you may remove this package.
+Author: LukeZGD
+Name: Jailbreak App Icons Fix
+
+Package: com.lukezgd.kDFUBundles
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: org.tihmstar.kDFUApp
+Filename: debs/com.lukezgd.kDFUBundles-1.0.1_iphoneos-arm.deb
+Size: 10730
+MD5sum: 96964db28234171b2ebbebfc04239559
+SHA1: f5bff05635caeaeea05237f60a7ae1f2ebb0f1b9
+SHA256: dd55fa1d75cebac3c6423a1ee5405ca680580c6b569f4667869d04fe6951b141
+Section: System
+Description: More device support for kDFUApp
+Author: LukeZGD
+Name: kDFUApp Bundles
+
+Package: com.lukezgd.newterminstaller
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: ws.hbang.common (<< 2.0), ws.hbang.newterm2 (>= 2.5)
+Filename: debs/com.lukezgd.newterminstaller.deb
+Size: 822
+MD5sum: 01ffbc9f21e7bf3d361f4106697218b6
+SHA1: 672984633ba43a8d62687f01b9d2edbc7d1fd369
+SHA256: 3c42336d48eb688cdba72b8d628193e308ccc66d3d8796b861aa599cc74678fd
+Section: System
+Description: NewTerm 2 installer for socket jailbreak and other rootful (mainly for iOS 14 and lower) jailbreaks. Users must have https://repo.chariz.com added to Sources to proceed. You may remove this package after NewTerm 2 is installed.
+Author: LukeZGD
+Name: NewTerm 2 Installer for Socket
+
+Package: com.lukezgd.pangu7-migrator
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LukeZGD
+Depends: firmware (>= 7.1), firmware (<= 7.1.2), io.pangu.axe7 (>= 0.3)
+Conflicts: cy+cpu.arm64
+Filename: debs/com.lukezgd.pangu7-migrator.deb
+Size: 1144
+MD5sum: e4080ce1855866f51932999cec86522c
+SHA1: 563520726bc92021ddf80ed6ef852fb7c61ba05c
+SHA256: f002a23971ba28d96638d9b6a627ee2d4211d38f2eb49671d9339e51ca3f116c
+Section: System
+Description: Migrate from Lyncis Untether to Pangu7 Untether. Remove this package after the migration process.
+Author: LukeZGD
+Name: Pangu7 Migrator
+
+Package: com.parrotgeek.ifilefix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: parrotgeek1 <parrotgeek1@gmail.com>
+Pre-Depends: grep, sed
+Depends: eu.heinelt.ifile
+Filename: debs/ifilefix.deb
+Size: 756
+MD5sum: 29dd062adc54c9db0dfb29aee4a268dc
+SHA1: b0e7c30321448daf149f341e9b869066996890a4
+SHA256: ab604ee96f79aa4163c87fccbb6f379693e4a09bb3d6ab2d79345f053100d8c1
+Section: Tweaks
+Description: Fixes iFile crash on launch.
+Author: parrotgeek1 <parrotgeek1@gmail.com>
+Name: iFile Crash Fix
+
+Package: com.parrotgeek.nobetaalert
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Nelson-Moore
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9)
+Filename: debs/com.parrotgeek.nobetaalert_1.4.3_iphoneos-arm.deb
+Size: 3066
+MD5sum: 73f504e0e22c5527132b544b01bded35
+SHA1: 852784553c7257673d86aae0c4eec5cbcbca9912
+SHA256: dda095a6dd9f98fbc16ac20d9884831d313d448fba72de335e4c8c589b46dd9b
+Section: Tweaks
+Description: Hide "Please update from the iOS beta" alert (iOS 9-13.x)
+Author: Ethan Nelson-Moore
+Name: NoBetaAlert
+
+Package: com.pholic.ipadui
+Version: 0.6.3
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 12)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.ipadui_0.6.3_iphoneos-arm.deb
+Size: 5358
+MD5sum: bacc3519350e20411fa1f9a51dc0d66e
+SHA1: 1e81eaad2a982fad7ac204d71576458cbb52d172
+SHA256: 4b1a49b97233ca8dbab635cbdf84c4e1eed6666e0eb594c9ad4a4df5386bc700
+Section: Tweaks
+Description: This is only for home-button iPhones on IOS 13 & 14, Now with limited support for 12 as well. There are no options to configure. This gives you home gestures, hides the status bar in the CC, gives you the iPad grid switcher, status bar, floating dock with recent app, and enables side-by-side multi-tasking. THIS IS A BETA
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: iPadUI
+
+Package: com.pholic.ipadui
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 12)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.ipadui_0.6.3_iphoneos-arm64.deb
+Size: 5648
+MD5sum: ff168714a84a7ddfcc7eecccc8c54965
+SHA1: 1f328696650342900581560a866e813b318db935
+SHA256: 4656d4d987b2cdd612a81e261a5c0c65cf07e0185affa9c775268b86bb28452b
+Section: Tweaks
+Description: This is only for home-button iPhones on IOS 13 & 14, Now with limited support for 12 as well. There are no options to configure. This gives you home gestures, hides the status bar in the CC, gives you the iPad grid switcher, status bar, floating dock with recent app, and enables side-by-side multi-tasking. THIS IS A BETA
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: iPadUI
+
+Package: com.pholic.modernui
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm.deb
+Size: 3266
+MD5sum: 0740716b33075cd4c000121361bae5db
+SHA1: 35ea4073b7113a3be6f72a33c3f748980038f21d
+SHA256: d14eec08d86dfce69e64d5fb7b4056a18b128c7b6a106aa0c0bdd1220397c094
+Section: Tweaks
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI
+
+Package: com.pholic.modernui
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernuiplus,  com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Provides: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernui_1.1.5_iphoneos-arm64.deb
+Size: 3326
+MD5sum: 337b60f989ad636986e9952661a88601
+SHA1: 567aace25aa5823ff5dcb252645ba49b441890cf
+SHA256: 6d614ce6c6503c290b7c15a924cee5b670b754767ba401e5669988c09ab9ad2a
+Section: Tweaks
+Description: Gestures for home button iPhones on IOS 13 & 14. There are no options. This only give you gestures and hides the status bar in the CC, nothing else.
+Author: pholic <pholic@gmail.com>
+Conflict: com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI
+
+Package: com.pholic.modernuiplus
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm.deb
+Size: 5282
+MD5sum: ea9df910f1ea41f3565ee313ee3a80bf
+SHA1: c21b296b7a8dec95485539b36b43b7f1f009915c
+SHA256: 247753a56b8e8066c8368961338c6f56d6bff21f1caa5a019529f652eeacb48c
+Section: Tweaks
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Author: pholic
+Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI Plus
+
+Package: com.pholic.modernuiplus
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: pholic <pholic@gmail.com>
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 13)
+Replaces: com.pholic.modernui, com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Filename: debs/com.pholic.modernuiplus_1.0.1_iphoneos-arm64.deb
+Size: 5454
+MD5sum: 10400e21293ecefc9884abbdd1f4ea41
+SHA1: af81904f0a978348716cda43698ce538698f71fa
+SHA256: f593772210a54987777805458efccdbf0db024a12091b670bf2cbdca81f064fd
+Section: Tweaks
+Description: Modern gestures for IOS 13 & 14, no large titles, no dock background, percentage inside the battery, iPad status bar and switcher, no breadcrumbs, no icon fly in, fast app opening animations, no configuration options.
+Author: pholic
+Conflict: com.huis.halfipad, com.ryannair05.little11, com.VitaTaf.HomeGesture, com.ioscreatix.littlex
+Name: ModernUI Plus
+
+Package: com.ra9stuff.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm64
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1-2_iphoneos-arm64.deb
+Size: 4970
+MD5sum: c585aca0c818a74d52b2e045b29d9fd2
+SHA1: ab44734d1b78494d2bbf3d61c5e79f6959aa4d79
+SHA256: a38c9303115330e1abc471bc21136622c532255c4a1a35dfd82143255a656760
+Section: Tweaks
+Description: blocks downloading accessory firmware alert.
+Author: rA9stuff
+Name: accessoryalertblocker
+
+Package: com.ra9stuff.accessoryalertblocker
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: rA9stuff
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ra9stuff.accessoryalertblocker_0.0.1_iphoneos-arm.deb
+Size: 4908
+MD5sum: fd284f54ce49e93397e462947f5f1ad2
+SHA1: 3518e993db934723dfaaf5b7fd83f3d49b10c4c1
+SHA256: a5663a19248dce79aa74b7f23b75b3dc893260012cfa9ff908675721da0f9844
+Section: Tweaks
+Description: blocks downloading accessory firmware alert.
+Author: rA9stuff
+Name: accessoryalertblocker
+
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 496
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm.deb
+Size: 93200
+MD5sum: 32262b3bfb3a9b3745a9de49f9dd8d85
+SHA1: d37954a47a12db43eb443ccdf6e7cc8bf11a03fc
+SHA256: 31e051caf2d0e9e7cccc7d9ccac0c9fa2d99353f3778074b4a17ba12b6085238
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 496
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.3_iphoneos-arm64.deb
+Size: 102934
+MD5sum: f88a4f6402a9af6333f1f361dd576cf9
+SHA1: 5065af0d4ab1edd2f669dfb9903442070ef9bfc9
+SHA256: de9d6cd4e7347eb128484b46c1a364b80104de6d54e900658fae036b160bf7a0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: dev.ayden.ios.tweak.lib.libdundas
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 332
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/dev.ayden.ios.tweak.lib.libdundas_1.0.3_iphoneos-arm.deb
+Size: 40022
+MD5sum: 739f3faf6035be1de232833796947f5d
+SHA1: c5be57aeeafc4408e2b54d548b1e59482707ac85
+SHA256: 13f6bbadc25e00384c0f825963aa3769812a9e8737f1609dc530267ac650dc8f
+Section: Development
+Description: Utilities for my tweaks.
+Tag: role::developer
+Author: Ayden Panhuyzen
+Name: libdundas
+
+Package: io.pangu.axe7
+Version: 0.3
+Architecture: iphoneos-arm
+Maintainer: Pangu <axe@pangu.io>
+Depends: coreutils-bin, firmware (>= 7.1), firmware (<= 7.1.2)
+Filename: debs/io.pangu.axe7_0.3_iphoneos-arm.deb
+Size: 107276
+MD5sum: 3d86ef34bda9287e6081dda95b7593dd
+SHA1: 4267988b1bfdc4578dced131667ccca8eb6eb986
+SHA256: db7e412fd629802e26c8aec481cdca9cfe0a3bc33c7a4cc243351245da5cb172
+Section: System
+Priority: optional
+Description: untethered jailbreak based on pangu exploits
+Author: Pangu <axe@pangu.io>
+Depiction: http://cydia.saurik.com/info/io.pangu.axe7/
+Name: Pangu 7.1-7.1.x Untether
+
+Package: ipwnderlite
+Version: 1.0.69
+Architecture: iphoneos-arm64
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 15.0), curl, com.ra9stuff.accessoryalertblocker
+Filename: debs/ipwnderlite_1.0.69_iphoneos-arm64.deb
+Size: 19264
+MD5sum: 6e73d0ed0209ff2602642c85accccc30
+SHA1: c61efbc795cde3ec8da8fb0ffdc72d92c5ca79d8
+SHA256: 93a9ee4ac459478876ee17c7e4c30b418fca3a0bb2645f4293b105c816f110a6
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite (Rootless)
+
+Package: ipwnderlite32
+Version: 1.0.69-1
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 9.0), firmware (<< 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: debs/ipwnderlite32_1.0.69-1_iphoneos-arm.deb
+Size: 23194
+MD5sum: 397bd0c8e81336e8be96a02fc8be2cf7
+SHA1: dd9666ef2763748b094fb5833cdf6e174e8a64e7
+SHA256: b887948ac97ffb4744b087e4e5e0bfe1bdc075902481035a70b66b8be290ec02
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite
+
+Package: ipwnderlite64
+Version: 1.0.69
+Architecture: iphoneos-arm
+Maintainer: sakuRdev/dora2ios
+Depends: firmware (>= 11.0), curl, com.ra9stuff.accessoryalertblocker
+Conflicts: ipwnderlite
+Filename: debs/ipwnderlite64_1.0.69_iphoneos-arm.deb
+Size: 22868
+MD5sum: 48f01c9e24fc0b6d049983a29c511716
+SHA1: e508428723e9b5c24736b986d60387f91e3f45e1
+SHA256: 3a002fc710cd6aac02730ae53e5f51930d940b4402e2e4d5f4cfad1eb30e9f31
+Section: System
+Description: iPwnder Lite for iPhoneOS.
+Author: sakuRdev/dora2ios
+Depiction: https://raw.githubusercontent.com/dora2ios/ipwnder_lite/fba4c52bfeaa44ea2a51cd89e0fc48a906d31d9d/README.md
+Name: iPwnder Lite (iOS 11+)
+
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: debs/kloader-1.0.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
+Package: libcrippy-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: debs/libcrippy-1.0.0.deb
+Size: 15858
+MD5sum: d0057e3946594ac6c18b7112383955e5
+SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
+SHA256: f1f3253d43601acbacd12071e1de880a83b2b987b6238a131fc84ef813928465
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libcrippy-1.0.0
+
+Package: libpartialzip-1.0.0
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: debs/libpartialzip-1.0.0.deb
+Size: 6830
+MD5sum: ab609167a1653beda05eb2876f2500bd
+SHA1: cf24410d852a756df9869e99dc3e0075baed092d
+SHA256: 2a0417afeaf3368285d409c396492158632a6c44e8051bc12f2bdb7b8ff0f1d6
+Section: Development
+Priority: optional
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+Name: libpartialzip-1.0.0
+
+Package: me.jjolano.alertdismiss
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: debs/me.jjolano.alertdismiss.deb
+Size: 25240
+MD5sum: 2282ea8ff09e382807e1aa3399996d8d
+SHA1: a0d8427704e3e458e1ed7c373d1ff236c58e1ffc
+SHA256: d7ad8fa1edf908499c807075ee62b947cd1b329300d0dc12cdf79171e69f2fb1
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Add a Force Dismiss button to any UIAlertController.
+Author: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.alertdismiss.html
+Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+Name: AlertDismiss
+Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+
+Package: me.jjolano.alertdismiss
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=8.0), mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: debs/me.jjolano.alertdismiss_1.0.4_iphoneos-arm64.deb
+Size: 14936
+MD5sum: aafdecff1cda78f7877a373dcf4c0e07
+SHA1: 9b4ad7ec99a3b1480af36fc7f4dceb31b5bb1167
+SHA256: 33ef491d32f1f7642b0710aba11db3ad5c11bde9800f92d2ce46a62544b23872
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Add a Force Dismiss button to any UIAlertController.
+Author: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.alertdismiss.html
+Icon: https://ios.jjolano.me/assets/me.jjolano.alertdismiss/icon.png
+Moderndepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+Name: AlertDismiss
+Sileodepiction: https://ios.jjolano.me/depiction/native/me.jjolano.alertdismiss.json
+
+Package: net.arx8x.ultrasoundpatch
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: ARX8x
+Installed-Size: 69
+Depends: mobilesubstrate
+Filename: debs/net.arx8x.ultrasoundpatch_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2974
+MD5sum: d38b83f4f840ce2a478a5861a0b5d54d
+SHA1: 7a154acb3916470610ce822702d571366af592f0
+SHA256: 2d6376517a453123a05d11c83b32977ecbb8b9cd682c395cd23f5d50a6c5d0fd
+Section: Tweaks
+Description: Make Ultrasound work on iOS 10 (and below maybe?)
+Author: ARX8x
+Name: Ultrasound patch
+
+Package: org.coolstar.stash933
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<= 10.2.1), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16), org.coolstar.stash935
+Filename: debs/stash933.deb
+Size: 30318
+MD5sum: 14976801fe8cdabad2a5a434f545456b
+SHA1: be82b7240e1054a1ad4b56c642a40b14459cf7f3
+SHA256: 21b887e2fc70ee2254cfd4331fb5b8b5a0e2dacae437d32d23b0d2b87884b6f7
+Section: System
+Description: Stash 3rd party components to make more space for them!
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Stashing for iOS 9.2 - 10.2.1
+
+Package: org.coolstar.stash935
+Version: 1.5.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 9.2), firmware (<< 10.0), org.coolstar.cctools
+Conflicts: com.tigisoftware.filza (<= 3.1.0-16), org.coolstar.stash933
+Filename: debs/stash935.deb
+Size: 30440
+MD5sum: 21836b55515b9835436a2a3dd9cf8af5
+SHA1: 100b0d9d0984cd5d8c33e71f3532ea8a7d4ea79f
+SHA256: 5c10ee5cab458ce0fae9f7a0a73fe65fc3eadec92a1bc56e262ef3357c3f0fc0
+Section: System
+Description: Stash 3rd party components to make more space for them!
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Stashing for iOS 9.2 - 9.3.6
+
+Package: org.tihmstar.kDFUApp
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, com.lukezgd.kDFUBundles, firmware (>= 6.0), firmware (<= 9.3.6)
+Filename: debs/org.tihmstar.kDFUApp.deb
+Size: 80264
+MD5sum: 11acba9233d569267c58a2ff1e85a600
+SHA1: 5ecdfd856331a124649cf2af6a83b39d48d6ef62
+SHA256: 1f44ba92f5e194e56234eff7f5c09bf571d30b3001c6d6d52488b55fa070cb7c
+Section: System
+Priority: optional
+Description: easy way to get into kDFU mode
+Author: tihmstar
+Dev: tihmstar
+Name: kDFUApp
+
