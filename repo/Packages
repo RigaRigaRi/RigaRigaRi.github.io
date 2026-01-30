@@ -1010,12 +1010,32 @@ Description: Don't install if you don't know what that is
 Author: winocm, xerub
 Name: kloader
 
+Package: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: debs/kloader-6.6.6.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+Section: System
+Priority: optional
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+ Do not install this package if you don't know what this is.
+ Installing this on a production device is not recommended.
+Author: winocm, xerub
+Name: kloader
+
 Package: ldid
 Version: 1:1.2.1
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Installed-Size: 272
-Filename: debs/ldid_11.2.1_iphoneos-arm.deb
+Filename: debs/ldid_1-1.2.1_iphoneos-arm.deb
 Size: 46666
 MD5sum: 52fba17f6b568ca3dafc1b1be6572e53
 SHA1: e98ca54ee40ad45c26f4c4881fe39c16dfd7b8b3
