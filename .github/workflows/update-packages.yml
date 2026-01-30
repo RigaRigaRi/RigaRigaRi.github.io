@@ -30,19 +30,32 @@ jobs:
           cd repo/debs
 
           echo '<!DOCTYPE html>' > index.html
-          echo '<html><head><meta charset="utf-8">' >> index.html
+          echo '<html>' >> index.html
+          echo '<head>' >> index.html
+          echo '<meta charset="utf-8">' >> index.html
           echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">' >> index.html
-          echo '<title>Deb packages</title>' >> index.html
-          echo '<link rel="stylesheet" href="../style.css">' >> index.html
-          echo '</head><body><div class="container">' >> index.html
-          echo '<h1>Available .deb packages</h1><ul>' >> index.html
+          echo '<title>RigaRigaRi Repo</title>' >> index.html
+          echo '<link rel="stylesheet" href="../../style.css">' >> index.html
+          echo '<link rel="icon" type="image/png" href="../../repo/CydiaIcon.png">' >> index.html
+          echo '</head>' >> index.html
+          echo '<body>' >> index.html
 
+          # центрируем ТОЛЬКО заголовок
+          echo '<div align="center">' >> index.html
+          echo '<h1><img src="../../repo/CydiaIcon.png" alt="" style="height:48px; vertical-align:middle; margin-right:0px;"> RigaRigaRi</h1>' >> index.html
+          echo '<hr/>' >> index.html
+          echo '<h3>Available packages</h3>' >> index.html
+          echo '</div>' >> index.html
+
+          # список без центрирования
+          echo '<ul>' >> index.html
           for f in *.deb; do
             size=$(du -h "$f" | cut -f1)
             echo "<li><a href=\"$f\">$f</a> ($size)</li>" >> index.html
           done
+          echo '</ul>' >> index.html
 
-          echo '</ul></div></body></html>' >> index.html
+          echo '</body></html>' >> index.html
 
       - name: Commit changes
         run: |
