@@ -40,7 +40,7 @@ jobs:
           echo '</head>' >> index.html
           echo '<body>' >> index.html
 
-          # центрируем ТОЛЬКО заголовок
+          # центрируем только заголовок
           echo '<div align="center">' >> index.html
           echo '<h1><img src="../../repo/CydiaIcon.png" alt="" style="height:48px; vertical-align:middle; margin-right:5px;">RigaRigaRi</h1>' >> index.html
           echo '<hr/>' >> index.html
@@ -49,13 +49,20 @@ jobs:
           echo '<h3>Available packages</h3>' >> index.html
           echo '</div>' >> index.html
 
-          # список без центрирования
-          echo '<ul>' >> index.html
+          # таблица пакетов: имя слева, размер справа
+          echo '<table style="width:100%; max-width:600px; margin:auto; border-collapse:collapse;">' >> index.html
+          echo '<tbody>' >> index.html
+
+          # заголовок колонок (опционально, можно убрать)
+          echo '<tr><th style="text-align:left;">Package</th><th style="text-align:right;">Size</th></tr>' >> index.html
+
           for f in *.deb; do
             size=$(du -h "$f" | cut -f1)
-            echo "<li><a href=\"$f\">$f</a> ($size)</li>" >> index.html
+            echo "<tr><td><a href=\"$f\">$f</a></td><td style=\"text-align:right;\">$size</td></tr>" >> index.html
           done
-          echo '</ul>' >> index.html
+
+          echo '</tbody>' >> index.html
+          echo '</table>' >> index.html
 
           echo '</body></html>' >> index.html
 
