@@ -1325,6 +1325,22 @@ Priority: standard
 Description: pluggable (comples) authentication modules
 Name: PAM (Apple)
 
+Package: pam-modules
+Version: 36.1-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/pam-modules_36.1-5_iphoneos-arm.deb
+Size: 5518
+MD5sum: 58453c78d45de8665a09b822702d37fb
+SHA1: c0b3d28b00054ddc21b008cb7d4efc69b6d54e15
+SHA256: c72d01a5b48b9d1ae91cbbed1e6d1b071ab4a5f806cc6f2f0f7edb889682640a
+Section: Administration
+Priority: standard
+Description: standard Apple authentication modules
+Name: PAM Modules
+
 Package: pcre
 Version: 8.30-6
 Architecture: iphoneos-arm
