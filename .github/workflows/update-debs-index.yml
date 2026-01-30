@@ -1,4 +1,4 @@
-name: Update debs index
+name: Update Cydia repo
 
 on:
   push:
@@ -16,6 +16,15 @@ jobs:
         with:
           persist-credentials: true
 
+      - name: Install dpkg-dev
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev
+
+      - name: Generate Packages
+        run: |
+          cd repo
+          dpkg-scanpackages -m debs /dev/null > Packages
+          bzip2 -f -k Packages
+
       - name: Generate debs index.html
         run: |
           cd repo/debs
@@ -25,10 +34,8 @@ jobs:
           echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">' >> index.html
           echo '<title>Deb packages</title>' >> index.html
           echo '<link rel="stylesheet" href="../style.css">' >> index.html
-          echo '</head><body>' >> index.html
-          echo '<div class="container">' >> index.html
-          echo '<h1>Available .deb packages</h1>' >> index.html
-          echo '<ul>' >> index.html
+          echo '</head><body><div class="container">' >> index.html
+          echo '<h1>Available .deb packages</h1><ul>' >> index.html
 
           for f in *.deb; do
             size=$(du -h "$f" | cut -f1)
@@ -37,10 +44,10 @@ jobs:
 
           echo '</ul></div></body></html>' >> index.html
 
-      - name: Commit index.html
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add repo/debs/index.html
-          git commit -m "Update debs index" || exit 0
+          git add repo/Packages repo/Packages.bz2 repo/debs/index.html
+          git commit -m "Update repo metadata" || exit 0
           git push origin main
