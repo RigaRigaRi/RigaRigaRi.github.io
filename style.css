@@ -2,7 +2,7 @@ a {
     color: #73f159;
 }
 
-h1, h3, p {
+h1, h3, p, tr {
     color: #eeeeee;
 }
 
@@ -19,4 +19,35 @@ ul {
 
 li {
     margin-bottom: 0.5em;
+}
+
+/* таблица пакетов */
+table {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 6px 4px;
+}
+
+td {
+    padding: 8px 4px;
+}
+
+tr {
+    border-bottom: 1px solid #333333;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td:last-child,
+th:last-child {
+    text-align: right;
+    white-space: nowrap;
 }
